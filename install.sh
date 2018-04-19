@@ -23,7 +23,6 @@ LOOT_DIR=/usr/share/sniper/loot
 PLUGINS_DIR=/usr/share/sniper/plugins
 
 echo -e "$OKGREEN + -- --=[This script will install sniper under $INSTALL_DIR. Are you sure you want to continue?$RESET"
-read answer 
 
 mkdir -p $INSTALL_DIR 2> /dev/null
 mkdir -p $LOOT_DIR 2> /dev/null
